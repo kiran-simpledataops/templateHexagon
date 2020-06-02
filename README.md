@@ -1,2 +1,2 @@
 # templateHexagon
-A template for a hexagonal app
+A web project template for a hexagonal app
