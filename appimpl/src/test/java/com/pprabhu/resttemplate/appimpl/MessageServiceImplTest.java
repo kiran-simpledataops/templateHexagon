@@ -18,16 +18,16 @@ public class MessageServiceImplTest {
 
     @BeforeEach
     public void setup() {
-
         System.out.println("Running for each");
-        String message = messageService.getMessage();
-        assertThat(message, is("Bonjour"));
     }
 
     @Test
     public void testGetMessage() {
 
+
         System.out.println("Running the test");
+        String message = messageService.getMessage();
+        assertThat(message, is("Bonjour"));
 
     }
 
