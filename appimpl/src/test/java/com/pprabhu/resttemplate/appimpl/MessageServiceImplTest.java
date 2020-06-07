@@ -23,12 +23,9 @@ public class MessageServiceImplTest {
 
     @Test
     public void testGetMessage() {
-
-
         System.out.println("Running the test");
         String message = messageService.getMessage();
         assertThat(message, is("Bonjour"));
-
     }
 
 }
