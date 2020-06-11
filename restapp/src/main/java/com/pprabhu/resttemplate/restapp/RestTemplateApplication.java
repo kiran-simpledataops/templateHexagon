@@ -1,7 +1,5 @@
 package com.pprabhu.resttemplate.restapp;
 
-import com.pprabhu.resttemplate.api.MessageService;
-import com.pprabhu.resttemplate.appimpl.MessageServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;

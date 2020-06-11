@@ -1,0 +1,4 @@
+string-value: Dev String value
+integer-value: 42
+nested:
+    string-value-2: String value 2

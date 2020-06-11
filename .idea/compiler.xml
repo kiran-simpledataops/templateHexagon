@@ -9,6 +9,7 @@
         <module name="appimpl" />
         <module name="restapp" />
         <module name="appapi" />
+        <module name="appconfig" />
         <module name="restapi" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="appapi" options="-parameters" />
+      <module name="appconfig" options="-parameters" />
       <module name="appimpl" options="-parameters" />
       <module name="hexagonTemplate" options="-parameters" />
       <module name="restapi" options="-parameters" />

@@ -1,0 +1,4 @@
+string-value: Prod String value
+integer-value: 43
+nested:
+    string-value-2: String value Prod
