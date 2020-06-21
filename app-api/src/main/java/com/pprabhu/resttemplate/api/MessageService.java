@@ -9,5 +9,5 @@ public interface MessageService {
      * Gets the message to display in the app
      * @return
      */
-    String getMessage();
+    Message getMessage();
 }
