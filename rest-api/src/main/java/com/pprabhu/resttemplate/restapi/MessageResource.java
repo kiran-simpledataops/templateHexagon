@@ -14,7 +14,7 @@ public class MessageResource {
 
     @GetMapping("/message")
     public String getMessage() {
-        return messageService.getMessage();
+        return messageService.getMessage().getMessage();
     }
 
 }
